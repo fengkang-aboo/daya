@@ -40,11 +40,11 @@ window.onload = function(){
     page0();
 
     // 点击
-    $('.topbar>span').on("click",function () {
-        var index=$(this).attr('data-id');
-        console.log(index);
-        $('.pagination span').eq(index).trigger('click');
-    })
+    // $('.topbar>span').on("click",function () {
+    //     var index=$(this).attr('data-id');
+    //     console.log(index);
+    //     $('.pagination span').eq(index).trigger('click');
+    // })
 
     function reset() {
         TweenMax.to('.home2-2', 0, {width:0, ease: Expo.easeIn});
